@@ -27,9 +27,9 @@ Finds listings of the same real-world product across 1M offers from 16.9k indepe
 - Fine-tuned cross-encoder reaches **0.81 F1** on 4,398 hand-labelled hard pairs, vs. 0.56 for embedding cosine
 - Only 19% of pairs go to the cross-encoder, and the whole pipeline runs in about 75 minutes on a MacBook Pro
 ### [Super Mario World agent: PPO from scratch](https://github.com/TylerWortley/super-mario-world-ppo)
- 
-<img src="mario-clear.gif" width="256" alt="PPO agent clearing Yoshi's Island 1, sped up 3x">
 PPO written from scratch in PyTorch, learning to clear Super Mario World's first level from raw pixels.
+
+<img src="mario-clear.gif" width="256" alt="PPO agent clearing Yoshi's Island 1, sped up 3x">
  
 - Clears Yoshi's Island 1 in **85% of evaluation episodes** (34/40 over two seeds); random and scripted agents never reach 15% of the level
 - Within noise of Stable-Baselines3 (90%) on the same environment, after matching CleanRL's reference PPO on CartPole across 3 seeds
